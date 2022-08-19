@@ -6,7 +6,7 @@
 
             <header class="gh-article-header gh-canvas">
                 {{#if primary_tag}}
-                    <a class="gh-article-tag" href="{{primary_tag.url}}">{{primary_tag.name}}</a>
+                    <a class="border-b-0 hover:border-b hover:border-green-600" href="{{primary_tag.url}}">{{primary_tag.name}}</a>
                 {{/if}}
 
                 <h1 class="mt-0 mb-2 text-green-600">{{title}}</h1>
@@ -18,7 +18,7 @@
                 {{/if}}
 
                 {{#if feature_image}}
-                    <figure class="gh-article-image">
+                    <figure class="object-cover h-48 md:h-72 lg:h-96 w-full shadow-lg rounded-lg">
                         <img
                             srcset="{{img_url feature_image size="s"}} 300w,
                                     {{img_url feature_image size="m"}} 720w,
@@ -39,10 +39,10 @@
             <section class="gh-content gh-canvas">
                 {{content}}
 
-                <div class="gh-article-meta">
+                <div class="text-base leading-snug text-gray-600 py-1 font-sans">
                     Copyright © 2007-2022 Martin Fenner. Distributed under the terms of the
                     <a
-                        class="gh-card-link"
+                        class="border-b-0 hover:border-b hover:border-green-600"
                         href="https://creativecommons.org/licenses/by/4.0/legalcode"
                     >
                         Creative Commons Attribution 4.0 License.
