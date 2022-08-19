@@ -1,6 +1,11 @@
 @import "@tryghost/shared-theme-assets/assets/css/screen.css";
 @import "fonts.css";
 
+/* Tailwind - add this part */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 :root {
     --font-sans: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; /* stylelint-disable-line value-keyword-case */
     --font-serif: Lora, Georgia, Times, serif; /* stylelint-disable-line value-keyword-case */
