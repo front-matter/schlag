@@ -18,8 +18,9 @@
                 {{/if}}
 
                 {{#if feature_image}}
-                    <figure class="object-cover h-48 md:h-72 lg:h-96 w-full shadow-lg rounded-lg">
+                    <figure class="flex-shrink-0 bg-white py-6">
                         <img
+                            class="object-cover h-48 md:h-72 lg:h-96 w-full shadow-lg rounded-lg"
                             srcset="{{img_url feature_image size="s"}} 300w,
                                     {{img_url feature_image size="m"}} 720w,
                                     {{img_url feature_image size="l"}} 960w,
