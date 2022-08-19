@@ -21,11 +21,11 @@
                     <span class="gh-article-meta-sep"></span>
                     <span class="gh-article-length">{{reading_time minute="1 min" minutes="% min"}}</span>
                 {{/if}}
-                {{#if canonical_url}}
-                    <br />
-                    <a class="gh-card-link" href="{{canonical_url}}">{{canonical_url}}</a>
-                {{/if}}
             </div>
+            {{#if canonical_url}}
+                <br />
+                <a class="gh-card-link" href="{{canonical_url}}">{{canonical_url}}</a>
+            {{/if}}
         </div>
     </aside>
 {{/is}}
