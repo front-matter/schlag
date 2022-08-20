@@ -1,14 +1,14 @@
 {{!< default}}
 
-<main class="gh-main">
+<main class="">
     {{#post}}
-        <article class="gh-article {{post_class}}">
-            <header class="gh-article-header gh-canvas">
+        <article class="{{post_class}}">
+            <header class="">
                 {{#if primary_tag}}
-                    <a class="gh-article-tag" href="{{primary_tag.url}}">{{primary_tag.name}}</a>
+                    <a class="" href="{{primary_tag.url}}">{{primary_tag.name}}</a>
                 {{/if}}
 
-                <h1 class="gh-article-title">{{title}}</h1>
+                <h1 class="">{{title}}</h1>
 
                 {{> "post-meta"}}
 
@@ -17,7 +17,7 @@
                 {{/if}}
 
                 {{#if feature_image}}
-                    <figure class="gh-article-image">
+                    <figure class="">
                         <img
                             srcset="{{img_url feature_image size="s"}} 300w,
                                     {{img_url feature_image size="m"}} 720w,
@@ -35,7 +35,7 @@
                 {{/if}}
             </header>
 
-            <section class="gh-content gh-canvas">
+            <section class="">
                 {{content}}
             </section>
         </article>
@@ -45,9 +45,9 @@
 
     {{#post}}
     {{#if comments}}
-        <div class="gh-comments gh-read-next gh-canvas">
-            <section class="gh-pagehead">
-                <h4 class="gh-pagehead-title">Comments ({{comment_count empty="0" singular="" plural=""}})</h3>
+        <div class="">
+            <section class="">
+                <h4 class="">Comments ({{comment_count empty="0" singular="" plural=""}})</h3>
             </section>
             {{comments title="" count=false}}
         </div>

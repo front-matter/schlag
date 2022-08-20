@@ -32,7 +32,7 @@
 
             <footer class="flex flex-row pt-2 pb-4">
                 <span class="font-bold font-sans uppercase text-sm">{{#foreach authors}}{{#if @first}}{{name}}{{else}}, {{name}}{{/if}}{{/foreach}}</span>
-                <time class="font-sans text-sm text-gray-600" datetime="{{date format="YYYY-MM-DD"}}">{{date}}</time>
+                &bull; <time class="font-sans text-sm text-gray-600" datetime="{{date format="YYYY-MM-DD"}}">{{date}}</time>
                 {{#if @site.comments_enabled}}
                     &bull; {{comment_count class="font-sans text-sm text-gray-600"}}
                 {{/if}}
