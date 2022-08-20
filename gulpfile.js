@@ -51,6 +51,7 @@ function css(done) {
         src('assets/css/screen.css', {sourcemaps: true}),
         postcss([
             easyimport,
+            tailwind(),
             autoprefixer(),
             cssnano()
         ]),

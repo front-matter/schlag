@@ -1,10 +1,9 @@
 @import "@tryghost/shared-theme-assets/assets/css/screen.css";
-@import "fonts.css";
 
 /* Tailwind - add this part */
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @layer base {
   a {
@@ -80,13 +79,6 @@
   .csl-indent { 
     @apply ml-8;
   }
-}
-
-
-:root {
-    --head-nav-gap: 32px;
-    --color-primary-text: var(--color-darker-gray);
-    --h1-size: 4.4rem;
 }
 
 .has-full-image {

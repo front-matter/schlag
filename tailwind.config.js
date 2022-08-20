@@ -2,7 +2,7 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  content: ["./**/*.{hbs}"],
+  content: ["./*.hbs", "./**/*.hbs"],
   theme: {
     extend: {
       colors: {
@@ -12,5 +12,7 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography')
+  ],
 }
