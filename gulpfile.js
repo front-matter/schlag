@@ -42,7 +42,6 @@ function hbs(done) {
 function css(done) {
     var processors = [
         easyimport,
-        colorFunction(),
         tailwind(), // add this
         autoprefixer(),
         cssnano()
