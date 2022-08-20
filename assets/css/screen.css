@@ -6,17 +6,89 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@layer base {
+  a {
+    @apply pb-0.5 border-b border-green-600 hover:border-green-800 visited:border-green-600;
+  }
+  body {
+    @apply font-serif;
+  }
+  code {
+    @apply font-mono text-sm p-1 bg-gray-50 mb-3;
+  }
+  figcaption {
+    @apply font-sans leading-snug italic;
+  }
+  figure {
+    @apply mb-3;
+  }
+  footer {
+    @apply font-sans text-base list-none border-b-0;
+  }
+  h1 {
+    @apply text-3xl font-sans font-semibold mt-8;
+  }
+  h2 {
+    @apply text-2xl font-sans font-semibold;
+  }
+  h3 {
+    @apply text-xl font-sans font-semibold;
+  }
+  h4 {
+    @apply font-sans font-semibold;
+  }
+  html {
+    @apply text-lg;
+  }
+  iframe {
+    @apply mb-3;
+  }
+  nav {
+    @apply font-sans text-base;
+  }
+  ol {
+    @apply list-decimal list-outside mb-3;
+  }
+  ul {
+    @apply list-disc list-outside mb-3;
+  }
+  blockquote {
+    @apply italic px-4 border-l-2 border-blue-400 mb-3;
+  }
+  p {
+    @apply mb-3;
+  }
+  pre {
+    @apply bg-gray-50 mb-3 p-2;
+  }
+  strong {
+    @apply font-semibold;
+  }
+
+  .csl-bib-body { }
+
+  .csl-entry {
+    @apply clear-left;
+  }
+  .csl-block { }
+  .csl-left-margin {
+    @apply clear-left float-left w-8;
+  }
+  .csl-right-inline {
+    @apply ml-8 mb-3;
+  }
+  .csl-indent { 
+    @apply ml-8;
+  }
+}
+
+
 :root {
     --font-sans: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; /* stylelint-disable-line value-keyword-case */
     --font-serif: Lora, Georgia, Times, serif; /* stylelint-disable-line value-keyword-case */
     --head-nav-gap: 32px;
     --color-primary-text: var(--color-darker-gray);
     --h1-size: 4.4rem;
-}
-
-figcaption {
-    font-size: 1.3rem;
-    text-align: right;
 }
 
 .has-full-image figcaption {
