@@ -1,15 +1,15 @@
 {{#is "post"}}
-    <aside class="gh-article-sidebar">
+    <aside class="">
         {{#primary_author}}
-            <figure class="gh-author-image">
+            <figure class="">
                 {{#if profile_image}}
                     <img src="{{profile_image}}" alt="{{name}}">
                 {{else}}
-                    <div class="gh-author-icon">{{> icons/avatar}}</div>
+                    <div class="">{{> icons/avatar}}</div>
                 {{/if}}
             </figure>
 
-            <h4 class="gh-author-name">
+            <h4 class="">
                 <a href="{{url}}">{{name}}</a>
             </h4>
         {{/primary_author}}
@@ -17,10 +17,11 @@
         <div class="font-sans text-sm text-gray-600">
             <time datetime="{{date format="YYYY-MM-DD"}}">{{date}}</time>
             {{#if reading_time}}
-                <span class="gh-article-meta-sep"></span>
+                &bull;
                 <span>{{reading_time minute="1 min" minutes="% min"}}</span>
             {{/if}}
             {{#if canonical_url}}
+                &bull; <br />
                 <a class="border-b-0 hover:border-b hover:border-green-600" href="{{canonical_url}}">{{canonical_url}}</a>
             {{/if}}
         </div>

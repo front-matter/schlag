@@ -34,7 +34,7 @@
                 <span class="font-bold font-sans uppercase text-sm">{{#foreach authors}}{{#if @first}}{{name}}{{else}}, {{name}}{{/if}}{{/foreach}}</span>
                 <time class="font-sans text-sm text-gray-600" datetime="{{date format="YYYY-MM-DD"}}">{{date}}</time>
                 {{#if @site.comments_enabled}}
-                    {{comment_count class="gh-card-comments"}}
+                    &bull; {{comment_count class="font-sans text-sm text-gray-600"}}
                 {{/if}}
             </footer>
         </div>
