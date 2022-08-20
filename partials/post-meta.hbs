@@ -15,13 +15,11 @@
         {{/primary_author}}
 
         <div class="font-sans text-sm text-gray-600">
-            <div class="gh-article-meta-inner">
-                <time class="font-sans text-sm text-gray-600" datetime="{{date format="YYYY-MM-DD"}}">{{date}}</time>
-                {{#if reading_time}}
-                    <span class="gh-article-meta-sep"></span>
-                    <span class="gh-article-length">{{reading_time minute="1 min" minutes="% min"}}</span>
-                {{/if}}
-            </div>
+            <time datetime="{{date format="YYYY-MM-DD"}}">{{date}}</time>
+            {{#if reading_time}}
+                <span class="gh-article-meta-sep"></span>
+                <span>{{reading_time minute="1 min" minutes="% min"}}</span>
+            {{/if}}
             {{#if canonical_url}}
                 <a class="border-b-0 hover:border-b hover:border-green-600" href="{{canonical_url}}">{{canonical_url}}</a>
             {{/if}}
