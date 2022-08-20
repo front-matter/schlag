@@ -1,10 +1,12 @@
 {
     "name": "schlagzeile",
     "description": "A Ghost theme, based on the headline theme and using tailwindcss.",
-    "version": "1.1.6",
+    "version": "1.1.7",
     "private": true,
     "engines": {
-        "ghost": ">=5.0.0"
+        "ghost": ">=5.0.0",
+        "node": ">=16.16.0",
+        "npm": ">=8.11.0"
     },
     "license": "MIT",
     "author": {
