@@ -103,7 +103,11 @@
         "beeper": "2.1.0",
         "cssnano": "5.1.13",
         "gscan": "4.34.0",
+<<<<<<< HEAD
         "gulp": "4",
+=======
+        "gulp": "^4.0.2",
+>>>>>>> parent of 90d6cb0 (adding tailwindcss)
         "gulp-concat": "2.6.1",
         "gulp-livereload": "4.0.2",
         "gulp-postcss": "9.0.1",

@@ -9,9 +9,6 @@ const uglify = require('gulp-uglify');
 const beeper = require('beeper');
 const zip = require('gulp-zip');
 
-// import tailwind at the top of the file
-const tailwind = require('tailwindcss')
-
 // postcss plugins
 const easyimport = require('postcss-easy-import');
 const autoprefixer = require('autoprefixer');
@@ -38,8 +35,8 @@ function hbs(done) {
     ], handleError(done));
 }
 
-// add tailwind to the css processors list:
 function css(done) {
+<<<<<<< HEAD
     var processors = [
         easyimport,
         tailwind(), // add this
@@ -47,6 +44,8 @@ function css(done) {
         cssnano()
     ];
 
+=======
+>>>>>>> parent of 90d6cb0 (adding tailwindcss)
     pump([
         src('assets/css/screen.css', {sourcemaps: true}),
         postcss([
