@@ -324,6 +324,10 @@ body:not(.home-template) .gh-topic-grid .gh-card {
     letter-spacing: 0.01em;
 }
 
+.gh-article-title {
+    color: var(--ghost-accent-color);
+}
+
 .gh-article-excerpt {
     font-size: 1.9rem;
 }

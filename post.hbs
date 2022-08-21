@@ -39,15 +39,19 @@
             <section class="gh-content gh-canvas">
                 {{content}}
 
-                <div class="gh-license">
-                    Copyright © 2007-2022 Martin Fenner. Distributed under the terms of the
-                    <a
-                        class="gh-card-link"
-                        href="https://creativecommons.org/licenses/by/4.0/legalcode"
-                    >
-                        Creative Commons Attribution 4.0 License.
-                    </a>
-                </div>
+                {{#if @custom.license_url}}
+                    <div class="gh-license">
+                       
+            
+                        Copyright © {{date format="YYYY"}} {{#foreach authors}}{{#if @first}}{{name}}{{else}}, {{name}}{{/if}}{{/foreach}}. Distributed under the terms of the
+                        <a
+                            class="gh-card-link"
+                            href="{{@custom.license_url}}"
+                        >
+                            {{@custom.license_text}}.
+                        </a>
+                    </div>
+                {{/if}}
             </section> 
         </article>
     {{/post}}

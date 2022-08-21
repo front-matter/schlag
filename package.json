@@ -1,7 +1,7 @@
 {
     "name": "schlagzeile",
     "description": "A Ghost theme",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "private": true,
     "engines": {
         "ghost": ">=5.0.0"
@@ -83,6 +83,16 @@
             "enter_tag_slugs_for_secondary_sections": {
                 "type": "text",
                 "group": "homepage"
+            },
+            "license_text": {
+                "type": "text",
+                "default": "Creative Commons Attribution 4.0 License",
+                "group": "post"
+            },
+            "license_url": {
+                "type": "text",
+                "default": "https://creativecommons.org/licenses/by/4.0/legalcode",
+                "group": "post"
             }
         }
     },
