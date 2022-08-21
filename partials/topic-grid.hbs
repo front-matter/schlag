@@ -3,7 +3,7 @@
         <a href="{{url}}">{{name}}</a>
     </h2>
 
-    <div class="gh-topic-content">
+    <div class="">
         {{#get "posts" include="tags,authors" filter="tag:{{slug}}" limit="7"}}
             {{#foreach posts}}
                 {{> "loop-grid"}}

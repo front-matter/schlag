@@ -1,21 +1,21 @@
 {{#is "post"}}
     <aside class="">
         {{#primary_author}}
-            <figure class="">
+            <figure>
                 {{#if profile_image}}
-                    <img src="{{profile_image}}" alt="{{name}}">
+                    <img src="{{profile_image}}" alt="{{name}}" class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24">
                 {{else}}
-                    <div class="">{{> icons/avatar}}</div>
+                    <div>{{> icons/avatar}}</div>
                 {{/if}}
             </figure>
 
-            <h4 class="">
-                <a href="{{url}}">{{name}}</a>
+            <h4>
+                <a ref="{{url}}" class="border-b-0 hover:border-b hover:border-green-600">{{name}}</a>
             </h4>
         {{/primary_author}}
 
         <div class="font-sans text-sm text-gray-600">
-            <time datetime="{{date format="YYYY-MM-DD"}}">{{date}}</time>
+            <time datetime="{{date format="MMMM DD, YYYY"}}">{{date}}</time>
             {{#if reading_time}}
                 &bull;
                 <span>{{reading_time minute="1 min" minutes="% min"}}</span>

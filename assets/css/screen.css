@@ -16,7 +16,7 @@
     @apply font-mono text-sm p-1 bg-gray-50 mb-3;
   }
   figcaption {
-    @apply font-sans leading-snug italic;
+    @apply font-sans text-base mt-3 leading-snug;
   }
   figure {
     @apply mb-3;
@@ -34,7 +34,7 @@
     @apply text-xl font-sans font-semibold;
   }
   h4 {
-    @apply font-sans font-semibold;
+    @apply font-sans font-bold text-lg;
   }
   html {
     @apply text-lg;
@@ -78,6 +78,14 @@
   }
   .csl-indent { 
     @apply ml-8;
+  }
+
+  .kg-width-wide {
+    @apply w-full;
+  }
+  
+  .kg-width-full {
+    @apply w-full;
   }
 }
 

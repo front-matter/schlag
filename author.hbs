@@ -4,11 +4,11 @@
     <div class="gh-inner">
         {{#author}}
             <section class="gh-pagehead">
-                <figure class="gh-author-image">
+                <figure>
                     {{#if profile_image}}
-                        <img src="{{profile_image}}" alt="{{name}}">
+                        <img src="{{profile_image}}" alt="{{name}}" lass="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24">
                     {{else}}
-                        <div class="gh-author-icon">{{> icons/avatar}}</div>
+                        <div>{{> icons/avatar}}</div>
                     {{/if}}
                 </figure>
 
