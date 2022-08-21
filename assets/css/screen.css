@@ -382,7 +382,7 @@ body:not(.home-template) .gh-topic-grid .gh-card {
 }
 
 .gh-article-meta {
-    margin-top: 6px;
+    margin-top: 1px;
     font-size: 1.3rem;
     color: var(--color-secondary-text);
     letter-spacing: -0.003em;
@@ -391,7 +391,7 @@ body:not(.home-template) .gh-topic-grid .gh-card {
 .gh-article-meta-inner {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
 }
 
 .gh-article-meta-sep {
@@ -622,6 +622,12 @@ body:not(.home-template) .gh-topic-grid .gh-card {
 
 .gh-copyright {
     margin-top: 64px;
+    color: var(--color-secondary-text);
+    letter-spacing: -0.006em;
+}
+
+.gh-license {
+    margin-top: 28px;
     color: var(--color-secondary-text);
     letter-spacing: -0.006em;
 }
