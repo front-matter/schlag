@@ -7,6 +7,10 @@
     <title>{{meta_title}}</title>
     <link rel="stylesheet" href="{{asset "built/screen.css"}}">
 
+    {{#if @custom.license_url}}
+    <meta name="DCTERMS.license" content="{{@custom.license_url}}" />
+    {{/if}}
+
     {{ghost_head}}
 </head>
 
