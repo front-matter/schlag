@@ -1,6 +1,6 @@
 # Schlagzeile
 
-Schlagzeile is a [Ghost](https://github.com/TryGhost/Ghost) theme forked from the official Ghost theme [Headline](https://github.com/TryGhost/Headline). While it can be used for any purpose, the theme takes a thoughtful approach to displaying large amounts of content across various areas of coverage. Schlagzeile adapts to your content by showcasing your most written about topics or by giving you the control to decide which topics are front and center.
+Schlagzeile is a [Ghost](https://github.com/TryGhost/Ghost) theme forked from the official Ghost theme [Headline](https://github.com/TryGhost/Headline). See [Changelog(https://github.com/front-matter/schlagzeile/blob/master/CHANGELOG.md) for changes to the headline theme. While it can be used for any purpose, the theme takes a thoughtful approach to displaying large amounts of content across various areas of coverage. Schlagzeile adapts to your content by showcasing your most written about topics or by giving you the control to decide which topics are front and center.
 
 # Instructions
 
