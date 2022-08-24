@@ -10,6 +10,9 @@
     {{#if @custom.license_url}}
     <meta name="DCTERMS.license" content="{{@custom.license_url}}" />
     {{/if}}
+    {{#if @custom.issn}}
+    <meta name="citation_issn" content="{{@custom.issn}}">
+    {{/if}}
 
     {{ghost_head}}
 </head>

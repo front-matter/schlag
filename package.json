@@ -93,6 +93,10 @@
                 "type": "text",
                 "default": "https://creativecommons.org/licenses/by/4.0/legalcode",
                 "group": "post"
+            },
+            "issn": {
+                "type": "text",
+                "group": "homepage"
             }
         }
     },
