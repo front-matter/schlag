@@ -1,4 +1,6 @@
 # Schlagzeile
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ffront-matter%2Fschlagzeile.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Ffront-matter%2Fschlagzeile?ref=badge_shield)
+
 
 Schlagzeile is a [Ghost](https://github.com/TryGhost/Ghost) theme forked from the official Ghost theme [Headline](https://github.com/TryGhost/Headline). See \[Changelog(<https://github.com/front-matter/schlagzeile/blob/master/CHANGELOG.md>) for changes to the headline theme. While it can be used for any purpose, the theme takes a thoughtful approach to displaying large amounts of content across various areas of coverage. Schlagzeile adapts to your content by showcasing your most written about topics or by giving you the control to decide which topics are front and center.
 
@@ -34,3 +36,6 @@ This repo is synced automatically with [Front-Matter/schlagzeile](https://github
 ## Copyright & License
 
 Copyright (c) 2022 Front Matter - Released under the [MIT license](LICENSE).
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ffront-matter%2Fschlagzeile.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ffront-matter%2Fschlagzeile?ref=badge_large)
